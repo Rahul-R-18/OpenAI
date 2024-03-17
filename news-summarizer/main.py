@@ -5,3 +5,5 @@ import logging
 from datetime import datetime
 
 load_dotenv()
+
+print("yo")
