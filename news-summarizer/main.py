@@ -13,7 +13,7 @@ load_dotenv()
 client = openai.OpenAI()
 model = "gpt-3.5-turbo-16k"
 
-news_api_key = os.environ.get('NEWS_API_KEY')
+news_api_key = "3c00ad014d9947b4a03ad3bf7668b499"
 
 def get_news(topic):
     url = (
