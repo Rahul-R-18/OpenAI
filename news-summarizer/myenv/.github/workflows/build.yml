@@ -1,0 +1,3 @@
+on: push
+env:
+  news-api-key: ${{ secrets.NEWS_API_KEY }}
